@@ -1,7 +1,7 @@
 import {useTranslation} from "react-i18next";
 import {HTMLAttributes} from "react";
 
-interface IProps extends HTMLAttributes<HTMLDivElement>{
+interface IProps extends HTMLAttributes<HTMLDivElement> {
 
 }
 
@@ -12,12 +12,12 @@ const NewCategoryBtn = ({...props}: IProps) => {
         <div className={`list fadeInDown item list-new-btn ${props.className ?? ""}`} {...props}>
             <div className="list__preview">
                 <svg width="74" height="88" viewBox="0 0 74 88" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.35">
+                    <g opacity="0.6">
                         <path
                             d="M57.1818 10.1538H74V88H0V10.1538H16.8182V16.9231H57.1818V10.1538ZM13.4545 44H60.5455V37.2308H13.4545V44ZM13.4545 71.0769H60.5455V64.3077H13.4545V71.0769ZM23.5455 10.1538V0H50.4545V10.1538H23.5455Z"
                             fill="#383B3D"/>
                         <rect x="11" y="30" width="53" height="43" fill="#383B3D"/>
-                        <g clipPath="url(#clip0_42_175)">
+                        <g clipPath="url(#clip0_5_164)">
                             <path
                                 d="M37.6875 42.5C38.0356 42.5 38.3694 42.6383 38.6156 42.8844C38.8617 43.1306 39 43.4644 39 43.8125V50.375H45.5625C45.9106 50.375 46.2444 50.5133 46.4906 50.7594C46.7367 51.0056 46.875 51.3394 46.875 51.6875C46.875 52.0356 46.7367 52.3694 46.4906 52.6156C46.2444 52.8617 45.9106 53 45.5625 53H39V59.5625C39 59.9106 38.8617 60.2444 38.6156 60.4906C38.3694 60.7367 38.0356 60.875 37.6875 60.875C37.3394 60.875 37.0056 60.7367 36.7594 60.4906C36.5133 60.2444 36.375 59.9106 36.375 59.5625V53H29.8125C29.4644 53 29.1306 52.8617 28.8844 52.6156C28.6383 52.3694 28.5 52.0356 28.5 51.6875C28.5 51.3394 28.6383 51.0056 28.8844 50.7594C29.1306 50.5133 29.4644 50.375 29.8125 50.375H36.375V43.8125C36.375 43.4644 36.5133 43.1306 36.7594 42.8844C37.0056 42.6383 37.3394 42.5 37.6875 42.5Z"
                                 fill="#A8C7FA"/>
@@ -27,7 +27,7 @@ const NewCategoryBtn = ({...props}: IProps) => {
                         </g>
                     </g>
                     <defs>
-                        <clipPath id="clip0_42_175">
+                        <clipPath id="clip0_5_164">
                             <rect width="39" height="42" fill="white" transform="translate(18 32)"/>
                         </clipPath>
                     </defs>

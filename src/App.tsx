@@ -8,6 +8,11 @@ import "./langs/lang.ts";
 import MainMenu from "./components/MainMenu.tsx";
 import {parseSavedData} from "./redux/slices/mainSlice.ts";
 
+const tg = window.Telegram.WebApp;
+
+tg.ready();
+tg.expand();
+
 function App() {
     const dispatch = useAppDispatch();
     const isVisibleLoadingOverlay = useAppSelector(state => state.main.isShowOverlay);
